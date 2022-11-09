@@ -1,4 +1,4 @@
-const router = reuire('express').Router();
+const router = require('express').Router();
 const {
     getUsers,
     getSingleUser,
