@@ -31,7 +31,6 @@ const thoughtSchema = new Schema(
         return this.reactions.length;
     });
 
-
     
     const Thought = model('Thought', thoughtSchema);
 

@@ -8,7 +8,7 @@ module.exports = {
      .catch((err) => res.status(500).json(err));
    },
    getSingleUser(req, res) {
-    User.findOne({ _id: req.params.userid})
+    User.findOne({ _id: req.params.id})
     .then((user) => 
     !user 
     ? res.status(400).json({ message: 'User id is not found'})
